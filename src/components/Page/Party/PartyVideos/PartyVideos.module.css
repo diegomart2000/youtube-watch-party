@@ -1,0 +1,43 @@
+
+.party__videos {
+  @apply w-28 h-[598px] overflow-y-auto;
+}
+
+.videos__item {
+  @apply relative block w-full h-[86px] bg-slate-800 mb-4 rounded-lg;
+}
+
+.videos__item:last-child {
+  @apply mb-0;
+}
+
+.videos__item img {
+  @apply block object-contain w-full h-full opacity-60;
+}
+
+.videos__item > svg {
+  @apply absolute w-14 h-14 text-slate-200;
+  top: calc(50% - 28px);
+  left: calc(50% - 28px);
+}
+
+.videos__item.playing img {
+  @apply opacity-100;
+}
+
+.videos__item:hover img {
+  @apply opacity-100;
+}
+
+.videos__item:hover a {
+  @apply opacity-100;
+}
+
+.videos__item > a {
+  @apply absolute flex w-6 h-6 justify-center items-center bg-slate-900 right-1 top-1 text-slate-200 cursor-pointer rounded-full opacity-5;
+  @apply hover:bg-slate-700;
+}
+
+.videos__item > a > svg {
+  @apply rotate-45;
+}

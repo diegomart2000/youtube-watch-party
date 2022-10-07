@@ -1,0 +1,22 @@
+.create {
+
+}
+
+.create h1 {
+  @apply text-5xl;
+}
+
+.party__code {
+  @apply my-8;
+}
+
+.party__user {
+  @apply my-8;
+}
+
+.user-name__input {
+  @apply outline-none;
+  @apply bg-transparent border-0 border-b-2 border-gray-800;
+  @apply px-1 py-2;
+  @apply text-2xl;
+}

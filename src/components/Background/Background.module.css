@@ -1,0 +1,5 @@
+.background {
+  background-image: url('/bg.jpg');
+  @apply h-screen w-screen bg-cover;
+
+}

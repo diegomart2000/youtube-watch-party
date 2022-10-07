@@ -1,0 +1,1 @@
+export { VideoInput as default } from "./VideoInput";

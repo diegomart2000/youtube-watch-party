@@ -1,0 +1,40 @@
+.party {
+  @apply flex w-full self-center items-center justify-center gap-4;
+}
+
+.party__player {
+  @apply flex flex-col w-fit justify-center items-center bg-slate-800 rounded-lg p-6 shadow-2xl;
+}
+
+.party__header {
+  @apply flex justify-between mb-6 w-full;
+}
+
+.header__code {
+  @apply flex gap-4 items-center;
+}
+
+.header__youtube {
+  @apply flex w-14 h-14 justify-center items-center bg-slate-900 rounded-lg;
+}
+
+.header__youtube > svg {
+  @apply block w-10;
+}
+
+.header__title > h1 {
+  @apply text-slate-300 text-base mb-3;
+}
+
+.header__add {
+  @apply relative flex items-center;
+}
+
+.header__add > svg {
+  @apply block text-slate-300 h-12 w-12 p-3 bg-slate-900 rounded-md;
+  @apply hover:cursor-pointer hover:bg-slate-700;
+}
+
+.header__input {
+  @apply absolute right-0 shadow-2xl -top-4;
+}
